@@ -1,0 +1,23 @@
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -19084,13 +19084,16 @@
+             ],
+             "dependencies": {
+                 "bindings": "^1.5.0",
+-                "node-addon-api": "^3.0.2"
++                "node-addon-api": "^8.2.1"
+             }
+         },
+         "node_modules/node-mac-contacts/node_modules/node-addon-api": {
+-            "version": "3.2.1",
+-            "resolved": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.2.1.tgz",
+-            "integrity": "sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A=="
++            "version": "8.3.1",
++            "resolved": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.3.1.tgz",
++            "integrity": "sha512-lytcDEdxKjGJPTLEfW4mYMigRezMlyJY8W4wxJK8zE533Jlb8L8dRuObJFWg2P+AuOIxoCgKF+2Oq4d4Zd0OUA==",
++            "engines": {
++                "node": "^18 || ^20 || >= 21"
++            }
+         },
+         "node_modules/node-mac-permissions": {
+             "version": "2.4.0",

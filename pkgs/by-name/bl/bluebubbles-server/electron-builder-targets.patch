@@ -1,0 +1,15 @@
+--- a/packages/server/scripts/electron-builder-config.js
++++ b/packages/server/scripts/electron-builder-config.js
+@@ -27,11 +27,7 @@ module.exports = {
+         ],
+         "target": [
+             {
+-                "target": "dmg",
+-                "arch": [
+-                    "x64",
+-                    "arm64"
+-                ],
++                "target": "dir",
+             }
+         ],
+         "type": "distribution",
